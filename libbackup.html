@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IET-LMS</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<style>
+body{
+	background-image:url("(40).jpg");}
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">IET-LMS</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li> 
+      <li><a href="#">Page 3</a></li> 
+    </ul>
+  </div>
+  </div>
+</nav>
+<div class="container">
+<h3>Fixed Navbar</h3>
+<div class="table-responsive">
+<form action="test.php" method="post">
+<div class="form-group" style="margin-top:150px">
+<table align="center" width="400" border="3" class="table table-hover">
+<tr>
+<td colspan="10" align="center" class="bg-primary"><h1>NEW BOOKS ENTRY</h1></td>
+</tr>
+<tr>
+<td align="center" colspan="5" class="success">BOOK NAME</td>
+<td  style="background-color:white"><input type="text" class="form-control" name="bookname" /></td>
+</tr>
+<tr>
+<td align="center" colspan="5" class="danger">AUTHOR NAME</td>
+<td  style="background-color:white"><input type="text" class="form-control" name="author" /></td>
+</tr>
+<tr>
+<td align="center" colspan="5" class="info">ISBN NO.</td>
+<td  style="background-color:white"><input type="text" class="form-control" name="isbn" /></td>
+</tr>
+<tr>
+<td align="center" colspan="5" class="warning">NO. OF BOOKS</td>
+<td  style="background-color:white"><input type="number" class="form-control" name="number" /></td>
+</tr>
+<tr>
+<td align="center" colspan="10" class="active"><input type="submit" class="btn btn-success" value="Submit" /></td>
+</tr>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap.js"></script>
+<script src="js/modal.js"></script>
+</table>
+</form>
+</div>
+</div>
+</body>
+</html>
